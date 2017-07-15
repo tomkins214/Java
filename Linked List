@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class CollectionsDemoList {
+
+ 
+    public static void main(String[] args) {
+        
+        // TODO code application logic here
+           List a1 = new ArrayList();
+      a1.add("Mike");
+      a1.add("Bob");
+      a1.add("John");      
+      System.out.println(" ArrayList Elements");
+      System.out.print("\t" + a1);
+
+      List l1 = new LinkedList();
+      l1.add("Mike");
+      l1.add("Bob");
+      l1.add("John");
+      System.out.println();
+      System.out.println(" LinkedList Elements");
+      System.out.print("\t" + l1);
+    }
+    
+}
